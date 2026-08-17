@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>ATBU Campus SOS</title>
+<link rel="stylesheet" href="/style.css" />
+<link rel="icon" href="/images/atbu-logo.jpg" />
+</head>
+<body>
+<div class="topbar">
+<div class="brand"><img src="/images/atbu-logo.jpg" alt="ATBU Logo" class="logo" /> ATBU Campus SOS</div>
+<div class="sub">Emergency Alert &amp; Response System</div>
+</div>
+<div class="wrap">
+<div class="card">
+<h1>Raise an Emergency Alert</h1>
+<p class="lead">Select your location and tap the SOS button. Campus security will be notified instantly.</p>
+<label for="name">Your Name / Matric Number</label>
+<input type="text" id="name" placeholder="e.g. Fatima Sani, 21/45678U/1" />
+<label for="location">Your Location</label>
+<select id="location">
+<optgroup label="Faculties">
+<option>Faculty of Engineering</option>
+<option>Faculty of Agriculture</option>
+<option>Faculty of Science</option>
+<option>Faculty of Environmental Technology</option>
+<option>Faculty of Management Technology</option>
+<option>Faculty of Education</option>
+<option>Faculty of Technology Education</option>
+<option>Faculty of Veterinary Medicine</option>
+<option>Faculty of Medicine</option>
+</optgroup>
+<optgroup label="Hostel Blocks">
+<option>Block A Male Hostel</option>
+<option>Block B Male Hostel</option>
+<option>Block C Male Hostel</option>
+<option>Block D Male Hostel</option>
+<option>Block E Female Hostel</option>
+<option>Block F Female Hostel</option>
+<option>Block G Female Hostel</option>
+<option>Postgraduate Hostel Block</option>
+<option>Medical Students Hostel Block</option>
+</optgroup>
+<optgroup label="Lecture Halls">
+<option>Central Lecture Theatre</option>
+<option>LT1 Engineering</option>
+<option>LT2 Agriculture</option>
+<option>LT3 Sciences</option>
+<option>LT4 Architecture</option>
+<option>Faculty of Engineering Complex</option>
+<option>Faculty of Agriculture Complex</option>
+<option>Faculty of Science Complex</option>
+<option>Faculty of Environmental Design Complex</option>
+</optgroup>
+<optgroup label="Laboratories & Libraries">
+<option>Engineering Workshop Labs</option>
+<option>Agricultural Research Labs</option>
+<option>Science Laboratories (Chemistry, Physics, Biology)</option>
+<option>Computer Labs (ICT Centre)</option>
+<option>Environmental Design Studios</option>
+<option>Central Library</option>
+<option>E-Learning Centre</option>
+</optgroup>
+<optgroup label="Administrative & Vital Buildings">
+<option>Senate Building</option>
+<option>Registry Office</option>
+<option>Bursary Office</option>
+<option>Student Affairs Division</option>
+<option>Security Unit</option>
+<option>Fire Service Post</option>
+<option>Medical Centre</option>
+</optgroup>
+<optgroup label="Other Campus Locations">
+<option>Sports Complex</option>
+<option>Student Union Building</option>
+<option>Cafeteria</option>
+<option>Banking Hall</option>
+<option>Campus Mosque</option>
+<option>Campus Chapel</option>
+<option>Transport Park</option>
+</optgroup>
+</select>
+<label for="emergencyType">Type of Emergency</label>
+<select id="emergencyType">
+<option value="Medical">🏥 Medical</option>
+<option value="Fire">🔥 Fire</option>
+<option value="Security Threat">🚨 Security Threat / Attack</option>
+<option value="Accident">⚠️ Accident</option>
+<option value="Other">❓ Other</option>
+</select>
+<button class="sos-btn" id="sosBtn">🚨 SEND SOS ALERT</button>
+<div class="confirmation" id="confirmation">
+✅ Alert sent. Campus security has been notified of your location and is responding.
+</div>
+</div>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
