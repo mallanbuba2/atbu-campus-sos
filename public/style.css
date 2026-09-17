@@ -12,7 +12,7 @@ body {
 margin: 0;
 font-family: "Segoe UI", Arial, sans-serif;
 background-color: var(--gray-bg);
-background-image: linear-gradient(rgba(244, 245, 247, 0.82), rgba(244, 245, 247, 0.82)), url(‘../image/atbu-logo.jpg’);
+background-image: linear-gradient(rgba(244, 245, 247, 0.82), rgba(244, 245, 247, 0.82)), url(‘/image/atbu-logo.jpg’);
 background-repeat: no-repeat;
 background-position: center;
 background-size: 280px auto;
