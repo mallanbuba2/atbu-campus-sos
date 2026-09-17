@@ -11,12 +11,12 @@
 body {
 margin: 0;
 font-family: "Segoe UI", Arial, sans-serif;
-Background-color: var(--gray-bg);
-Background-image: linear-gradient(rgba(244, 245, 247, 0.82), rgba(244, 245, 247, 0.82)), url(‘image/atbu-logo.png’);
-Background-repeat: no-repeat;
-Background-position: center;
-Background-size: 280px auto;
-Background-attachment: fixed;
+background-color: var(--gray-bg);
+background-image: linear-gradient(rgba(244, 245, 247, 0.82), rgba(244, 245, 247, 0.82)), url(‘image/atbu-logo.jpg’);
+background-repeat: no-repeat;
+background-position: center;
+ackground-size: 280px auto;
+background-attachment: fixed;
   Color: var(--text);
 }
 .topbar {
