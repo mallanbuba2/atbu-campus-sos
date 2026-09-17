@@ -11,8 +11,13 @@
 body {
 margin: 0;
 font-family: "Segoe UI", Arial, sans-serif;
-background: var(--gray-bg);
-color: var(--text);
+Background-color: var(--gray-bg);
+Background-image: linear-gradient(rgba(244, 245, 247, 0.92), rgba(244, 245, 247, 0.92)), url(‘images/logo.png’);
+Background-repeat: no-repeat;
+Background-position: center;
+Background-size: 350px auto;
+Background-attachment: fixed;
+  Color: var(--text);
 }
 .topbar {
 background: var(--navy);
